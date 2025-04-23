@@ -1,0 +1,228 @@
+/* Image credits pexels-pixabay-71103.jpg */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto, "Gill Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9FAF8;
+}
+
+.hero, .footer {
+    background-color: #1f2937;
+}
+
+.main-img img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    height: fit-content;
+    margin: 0;
+    padding-left: 117px;
+    padding-right: 117px;
+    padding-bottom: 78px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.heading h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    
+}
+
+.heading li {
+    list-style: none;
+    color: white;
+    padding: 5px;
+}
+
+.heading ul {
+    display: flex;
+}
+
+.heading a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.hero-main-text {
+    height: auto;
+    padding: 15px;
+}
+
+.hero-main-text h1 {
+    padding: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-main-text p {
+    color: #E5E7EB;
+    padding: 0;
+    font-size: 18px;
+}
+
+.hero-main-text button {
+    background-color: #3882f6;
+    border: none;
+    padding: 8px;
+    padding-inline: 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+.info, .sign-up{
+    min-height: 300px;
+    
+}
+
+.info h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 30px;
+}
+
+.info {
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.info-boxes .box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+
+.qoute {
+    background-color: #E5E7EB;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.qoute-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;   
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.CTA-banner {
+    background-color: #3882f6;
+    color: white;
+    padding-left:  50px;
+    padding-right: 50px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.CTAbtn button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.CTAtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CTAtext h2 {
+    padding: 0;
+    margin: 0;
+}
+
+
